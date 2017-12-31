@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>使用 vh 实现基于视口的居中</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .wrapper {
+            width: 100vw;
+            height: 100vh;
+            background-color: #ffee00;
+            overflow: hidden;
+        }
+        .content {
+            width: 300px;
+            padding: 15px;
+            margin: 50vh auto 0;
+            transform: translateY(-50%);
+            color: white;
+            background-color: deepskyblue;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="content" style="white-space: pre;">
+padding: 15px;
+margin: 50vh auto 0;
+transform: translateY(-50%);
+    </div>
+</div>
+</body>
+</html>

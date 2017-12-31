@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>table-layout:fixed</title>
+    <style>
+        table {
+            width: 100%;
+            table-layout: fixed;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #333;
+        }
+        th:nth-of-type(1) {
+            width: 20%;
+        }
+        th:nth-of-type(2) {
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <th>属性名</th>
+        <th>属性值</th>
+        <th>备注</th>
+    </tr>
+    <tr>
+        <th>table-layout</th>
+        <th>fixed</th>
+        <th>可以精确控制表格的列宽，并使举出行为与其它元素保持一致。</th>
+    </tr>
+</table>
+</body>
+</html>

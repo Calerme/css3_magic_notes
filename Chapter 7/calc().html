@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calc()</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #old-wrapper {
+            width: 100%;
+            height: 400px;
+            background-color: deepskyblue;
+        }
+        #old-content {
+            max-width: 900px;
+            height: 100%;
+            background-color: pink;
+            margin: auto;
+        }
+        #new-wrapper {
+            height: 400px;
+            padding: 1em calc(50% - 450px);
+            background-color: deepskyblue;
+        }
+    </style>
+</head>
+<body>
+<h2>老办法</h2>
+<div id="old-wrapper">
+    <div id="old-content">
+    </div>
+</div>
+<hr>
+<h2>新办法</h2>
+<div id="new-wrapper">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur, cumque distinctio dolores, eaque eum excepturi fugiat iure molestiae molestias possimus, quaerat quam quasi quia reprehenderit? A adipisci consequatur ipsum obcaecati odit sed veniam? Accusamus, at commodi earum eius illo molestiae nemo pariatur qui voluptates! Accusantium aperiam architecto commodi, culpa debitis delectus dolores ducimus, earum error eum excepturi fugit hic, id iusto magni nemo non pariatur porro qui quia reprehenderit repudiandae rerum saepe similique sint sunt vel voluptates. Accusantium aliquam architecto asperiores consectetur, culpa, eaque eius, et laudantium maiores molestias nam natus numquam recusandae reiciendis repellat sapiente ut vel veniam.
+</div>
+</body>
+</html>
