@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c23430a-3165-4698-b445-9e5198ed6802" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,7 +45,7 @@
       <file leaf-file-name="使用 vh 实现基于视口的垂直居中.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter 7/使用 vh 实现基于视口的垂直居中.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
+            <state relative-caret-position="0">
               <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -53,12 +54,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calc()实现页脚永远贴近底部.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calc()实现页脚永远贴近底部.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter 7/calc()实现页脚永远贴近底部.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="156">
+              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="28" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flexDemo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter 7/flex/flexDemo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12">
+              <caret line="55" column="30" lean-forward="false" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dragScript.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter 7/flex/js/dragScript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="30" column="63" lean-forward="false" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,6 +113,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>th</find>
+      <find>300</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,11 +132,20 @@
         <option value="$PROJECT_DIR$/Chapter 7/note.md" />
         <option value="$PROJECT_DIR$/Chapter 7/使用 vh 实现基于视口的垂直居中.html" />
         <option value="$PROJECT_DIR$/Chapter 7/calc()实现页脚永远贴近底部.html" />
+        <option value="$PROJECT_DIR$/Chapter 7/flex/flexDemo.html" />
+        <option value="$PROJECT_DIR$/Chapter 7/flex/js/dragScript.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -153,6 +186,12 @@
               <item name="css_secrets_notes" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter 7" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="css_secrets_notes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css_secrets_notes" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter 7" type="462c0819:PsiDirectoryNode" />
+              <item name="flex" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -165,6 +204,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -186,6 +228,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0c23430a-3165-4698-b445-9e5198ed6802" name="Default" comment="" />
@@ -195,17 +240,18 @@
       <updated>1514717754558</updated>
       <workItem from="1514717756293" duration="1220000" />
       <workItem from="1514719095887" duration="5188000" />
-      <workItem from="1514770388051" duration="953000" />
+      <workItem from="1514770388051" duration="4172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7361000" />
+    <option name="totallyTimeSpent" value="10580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1379" height="837" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25846833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25846833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -300,6 +346,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -344,7 +391,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter 7/使用 vh 实现基于视口的垂直居中.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
+        <state relative-caret-position="0">
           <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -354,9 +401,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter 7/calc()实现页脚永远贴近底部.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="156">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter 7/flex/flexDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="55" column="30" lean-forward="false" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter 7/flex/js/dragScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="30" column="63" lean-forward="false" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

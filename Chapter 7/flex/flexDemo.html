@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex Demo</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+        }
+        .box {
+            border: 10px solid deepskyblue;
+        }
+        .item {
+            width: 150px;
+            height: 150px;
+            color: #fff;
+            background-color: #ff463f;
+            font: bold 50px/150px sans-serif;
+            text-align: center;
+        }
+
+        /* 控制器 */
+        .ui-control {
+            position: fixed;
+            top: 50px;
+            left: 50px;
+            max-width: min-content;
+            min-width: 300px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #eee;
+            overflow: hidden;
+        }
+        .ui-control-title {
+            margin: -10px;
+            margin-bottom: 0;
+            font-size: 18px;
+            background-color: #bbb;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<aside class="ui-control">
+    <h2 class="ui-control-title">控制器</h2>
+    <fieldset>
+        <legend>包裹元素属性</legend>
+
+    </fieldset>
+    <fieldset>
+        <legend>子元素属性</legend>
+    </fieldset>
+</aside>
+<div class="box">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <script src="./js/dragScript.js"></script>
+</div>
+</body>
+</html>
