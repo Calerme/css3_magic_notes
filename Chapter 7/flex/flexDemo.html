@@ -15,6 +15,7 @@
             display: none;
         }
         .box {
+            display: flex;
             border: 10px solid deepskyblue;
         }
         .item {
@@ -59,26 +60,26 @@
         <label for="display">display: </label>
         <input type="text" id="display" value="flex" disabled>
         <br>
-        <label for="direction">flex-direction: </label>
-        <select id="direction">
+        <label for="flex-direction">flex-direction: </label>
+        <select id="flex-direction">
             <option value="row">row</option>
             <option value="row-reverse">row-reverse</option>
             <option value="column">column</option>
             <option value="column-reverse">column-reverse</option>
         </select>
         <br>
-        <label for="wrap">flex-wrap: </label>
-        <select name="" id="wrap">
+        <label for="flex-wrap">flex-wrap: </label>
+        <select name="" id="flex-wrap">
             <option value="nowrap">nowrap</option>
             <option value="wrap">wrap</option>
             <option value="wrap-reverse">wrap-reverse</option>
         </select>
         <br>
-        <label for="flow">flex-flow: </label>
-        <input type="text" id="flow" value="row nowrap" disabled>
+        <label for="flex-flow">flex-flow: </label>
+        <input type="text" id="flex-flow" value="row nowrap" disabled>
         <br>
-        <label for="content">justify-content: </label>
-        <select name="" id="content">
+        <label for="justify-content">justify-content: </label>
+        <select name="" id="justify-content">
             <option value="flex-start">flex-start</option>
             <option value="flex-end">flex-end</option>
             <option value="center">center</option>
@@ -86,8 +87,8 @@
             <option value="space-around">space-around</option>
         </select>
         <br>
-        <label for="items">align-items</label>
-        <select id="items">
+        <label for="align-items">align-items</label>
+        <select id="align-items">
             <option value="flex-start">flex-start</option>
             <option value="flex-end">flex-end</option>
             <option value="center">center</option>
@@ -96,7 +97,7 @@
         </select>
         <br>
         <label for="align-content">align-content: </label>
-        <select id="items">
+        <select id="align-content">
             <option value="flex-start">flex-start</option>
             <option value="flex-end">flex-end</option>
             <option value="center">center</option>
@@ -107,6 +108,7 @@
     </fieldset>
     <fieldset>
         <legend>子元素属性</legend>
+
     </fieldset>
 </aside>
 <div class="box">
@@ -118,7 +120,8 @@
     <div class="item">6</div>
     <div class="item">7</div>
     <div class="item">8</div>
-    <script src="./js/dragScript.js"></script>
 </div>
+<script src="./js/dragScript.js"></script>
+<script src="./js/wrapperInput.js"></script>
 </body>
 </html>
